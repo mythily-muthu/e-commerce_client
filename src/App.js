@@ -4,11 +4,11 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Products from "./Pages/Products/Products";
 import Product from "./Pages/Product/Product";
-
+import "./app.scss"
 
 const Layout = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
       <Outlet />
       <Footer />

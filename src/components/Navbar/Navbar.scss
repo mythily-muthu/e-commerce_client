@@ -4,19 +4,22 @@
   .wrapper {
     display: flex;
     padding: 10px 30px;
+    align-items: center;
     justify-content: space-between;
 
+    .item {
+      display: flex;
+      align-items: center;
+      display: flex;
+    }
     .left {
       display: flex;
       align-items: center;
       gap: 25px;
-      .item {
-        align-items: center;
-        display: flex;
-      }
     }
 
     .center {
+      font-size: 30px;
       align-items: center;
       letter-spacing: 2px;
     }
@@ -25,13 +28,10 @@
       display: flex;
       align-items: center;
       gap: 25px;
-      .item {
-        align-items: center;
-        display: flex;
-      }
+
       .icons {
         display: flex;
-        align-items: center;
+
         gap: 10px;
         color: #777;
         cursor: pointer;
