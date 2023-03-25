@@ -5,8 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Link } from "react-router-dom";
-// import "./Navbar.scss";
-import "./Navbar/Navbar.scss";
+import "./Navbar.scss";
 
 const Navbar = () => {
   return (
