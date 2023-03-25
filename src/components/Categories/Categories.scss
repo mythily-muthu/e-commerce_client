@@ -40,6 +40,10 @@
       text-transform: uppercase;
       width: fit-content;
       font-weight: 500;
+
+      &:hover {
+        background-color: #2879fe;
+      }
     }
     img {
       width: 100%;
