@@ -5,7 +5,6 @@
   overflow: hidden;
 
   .container {
-    width: 300vw;
     height: 100%;
     display: flex;
     transition: all 1s ease;
@@ -20,21 +19,50 @@
   .icons {
     width: fit-content;
     display: flex;
+    flex-direction: column;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 100px;
-    gap: 10px;
+    gap: 20px;
     margin: auto;
 
-    .icon {
-      width: 50px;
-      height: 50px;
-      border: 1px solid #999;
+    .image-slide-icons-dots-container {
       display: flex;
       align-items: center;
       justify-content: center;
-      cursor: pointer;
+      gap: 10px;
+
+      .icon {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+          rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+      }
+    }
+
+    .slideImageDotContainer {
+      margin: auto;
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+
+      .sliderImageDot {
+        height: 12px;
+        width: 12px;
+        transition: all 1s ease;
+        border: 1px solid #999;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+      }
     }
   }
 }
