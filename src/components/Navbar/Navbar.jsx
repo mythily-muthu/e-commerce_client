@@ -9,81 +9,79 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="wrapper">
-        {/* left side */}
-        <div className="left">
-          <div className="item">
-            <img
-              src="https://cdn.firstcry.com/education/2022/04/24105849/193394741.jpg"
-              alt=""
-              width="25px"
-              height="17px"
-            />
-            <KeyboardArrowDownIcon />
-          </div>
-          <div className="item">
-            <span>IND</span>
-            <KeyboardArrowDownIcon />
-          </div>
-          <div className="item">
-            <Link className="link" to="/products/1">
-              Men
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/products/2">
-              Women
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/products/3">
-              Children
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/products/4">
-              Accessories
-            </Link>
-          </div>
+    <div className="wrapper">
+      {/* left side */}
+      <div className="left">
+        <div className="item">
+          <img
+            src="https://cdn.firstcry.com/education/2022/04/24105849/193394741.jpg"
+            alt=""
+            width="25px"
+            height="17px"
+          />
+          <KeyboardArrowDownIcon />
         </div>
-        {/* center */}
-        <div className="center">
-          <Link className="link" to="/">
-            THREADS & TRENDS
+        <div className="item">
+          <span>IND</span>
+          <KeyboardArrowDownIcon />
+        </div>
+        <div className="item">
+          <Link className="link" to="/products/1">
+            Men
           </Link>
         </div>
+        <div className="item">
+          <Link className="link" to="/products/2">
+            Women
+          </Link>
+        </div>
+        <div className="item">
+          <Link className="link" to="/products/3">
+            Children
+          </Link>
+        </div>
+        <div className="item">
+          <Link className="link" to="/products/4">
+            Accessories
+          </Link>
+        </div>
+      </div>
+      {/* center */}
+      <div className="center">
+        <Link className="link" to="/">
+          THREADS & TRENDS
+        </Link>
+      </div>
 
-        {/* right side */}
-        <div className="right">
-          <div className="item">
-            <Link className="link" to="/">
-              Homepage
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/">
-              About
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/">
-              Contact
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/">
-              Stores
-            </Link>
-          </div>
-          <div className="icons">
-            <SearchIcon />
-            <PersonOutlineOutlinedIcon />
-            <FavoriteBorderOutlinedIcon />
-            <div className="cartIcon">
-              <ShoppingCartOutlinedIcon />
-              <span>0</span>
-            </div>
+      {/* right side */}
+      <div className="right">
+        <div className="item">
+          <Link className="link" to="/">
+            Homepage
+          </Link>
+        </div>
+        <div className="item">
+          <Link className="link" to="/">
+            About
+          </Link>
+        </div>
+        <div className="item">
+          <Link className="link" to="/">
+            Contact
+          </Link>
+        </div>
+        <div className="item">
+          <Link className="link" to="/">
+            Stores
+          </Link>
+        </div>
+        <div className="icons">
+          <SearchIcon />
+          <PersonOutlineOutlinedIcon />
+          <FavoriteBorderOutlinedIcon />
+          <div className="cartIcon">
+            <ShoppingCartOutlinedIcon />
+            <span>0</span>
           </div>
         </div>
       </div>
